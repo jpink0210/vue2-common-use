@@ -1,14 +1,16 @@
 # frame
 
-## Project setup
-```
-yarn install
-```
+### 專案基本建置
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+有路由、有 store by module、有 alias
+可以開始工作了各位。
+
+pages, modules(vuex, store)
+route/router
+utility/http, http interceptors
+config alias
+vue-router, vue-types, vuex
+sass-loader, node-sass
 
 ### Compiles and minifies for production
 ```
