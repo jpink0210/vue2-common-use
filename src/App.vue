@@ -1,9 +1,9 @@
 <template>
   <div id="app">
-    <router-view/>
     <router-link class="router-link" to="/">首頁</router-link>
     <router-link class="router-link" to="/demo">Demo頁</router-link>
     <router-link class="router-link" to="/mobile">Mobile頁</router-link>
+    <router-view/>
   </div>
 </template>
 
