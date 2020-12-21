@@ -2,6 +2,7 @@
 node_modules
 /dist
 
+/note.md
 
 # local env files
 .env.local
