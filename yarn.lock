@@ -8608,6 +8608,21 @@ vue-types@^1.7.0:
   dependencies:
     is-plain-object "3.0.0"
 
+"vue2-common@git+ssh:git@github.com:jpink0210/vue2-common.git":
+  version "0.1.0"
+  resolved "git+ssh:git@github.com:jpink0210/vue2-common.git#0cbe5a0410d2c8b6e1a917bab9d6d76334347876"
+  dependencies:
+    axios "^0.19.0"
+    bootstrap "4.2.1"
+    core-js "^3.6.5"
+    lodash.clonedeep "^4.5.0"
+    node-sass "^4.9.0"
+    sass-loader "^8.0.2"
+    vue "^2.6.11"
+    vue-router "^3.0.3"
+    vue-types "^1.7.0"
+    vuex "^3.0.1"
+
 vue@^2.6.11:
   version "2.6.11"
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.6.11.tgz#76594d877d4b12234406e84e35275c6d514125c5"
