@@ -14,17 +14,20 @@
       >
         {{ item }}
       </chech-box-ary-input>
+      <CheckBox />
   </div>
 </template>
 
 <script>
 import {
-  ChechBoxAryInput
+  ChechBoxAryInput,
+  CheckBox
 } from "vue2-common";
 export default {
   name: 'Demo',
   components: {
-    ChechBoxAryInput
+    ChechBoxAryInput,
+    CheckBox
   },
   data() {
     return {
