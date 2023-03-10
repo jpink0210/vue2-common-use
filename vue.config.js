@@ -18,6 +18,8 @@ module.exports = {
         "common.components",
         "@/../node_modules/vue2-common/src/components"
       )
+      .set('@vue2-common', '@/../node_modules/vue2-common/src')
+      .set('@scss', '@/../node_modules/vue2-common/src/scss')
   },
   lintOnSave: false
 }
