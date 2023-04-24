@@ -18,8 +18,17 @@ module.exports = {
         "common.components",
         "@/../node_modules/vue2-common/src/components"
       )
+      .set("common.styles", "@/../node_modules/vue2-common/src/scss")
       .set('@vue2-common', '@/../node_modules/vue2-common/src')
-      .set('@scss', '@/../node_modules/vue2-common/src/scss')
+  },
+  css: {
+    loaderOptions: {
+      scss: {
+        prependData: `
+          @import 'common.styles/global.variables.scss';
+        `
+      }
+    }
   },
   lintOnSave: false
 }

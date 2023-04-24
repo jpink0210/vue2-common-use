@@ -20,14 +20,14 @@
     "vuex": "^3.0.1"
   },
   "devDependencies": {
-    "vue2-common": "git+ssh:git@github.com:jpink0210/vue2-common.git",
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
-    "vue-template-compiler": "^2.6.11"
+    "vue-template-compiler": "^2.6.11",
+    "vue2-common": "git+ssh:git@github.com:jpink0210/vue2-common.git"
   },
   "eslintConfig": {
     "root": true,

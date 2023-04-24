@@ -3,6 +3,8 @@ import App from './App.vue'
 import router from './route/router'
 import store from './store'
 
+import "common.styles/global.import.scss";
+
 new Vue({
   router,
   store,
