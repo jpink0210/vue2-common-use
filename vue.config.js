@@ -11,7 +11,6 @@ module.exports = {
       .set('router',resolve('src/route/router'))
       .set('components',resolve('src/components'))
       .set('scss',resolve('src/scss'))
-      .set('public',resolve('src/public'))
       .set('utility',resolve('src/utility'))
       .set('pages',resolve('src/pages'))
       .set(

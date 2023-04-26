@@ -16,6 +16,11 @@ export default {
 }
 </script>
 
+<style lang="scss">
+@import './scss/base.scss';
+
+</style>
+
 <style lang="scss" scoped>
 
 #app {

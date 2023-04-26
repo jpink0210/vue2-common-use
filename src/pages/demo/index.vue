@@ -15,6 +15,20 @@
         {{ item }}
       </chech-box-ary-input>
       <CheckBox />
+
+      --
+      <div class="container">
+        文字左列
+        <div class="w-100 bg-primary">test rwd</div>
+      </div>
+      <div class="v1-container">
+        文字左列
+        <div class="w-100 bg-primary">test rwd</div>
+        <p>這個框架設計</p>
+        <p>你看到 1320, 在玩的東西就是左右的 p-3 的重疊 container 原理</p>
+        <img width="400" src="@/assets/rwd.png" />
+      </div>
+
   </div>
 </template>
 

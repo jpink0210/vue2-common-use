@@ -1,0 +1,51 @@
+
+$container-spacing: (
+  n3: 0,
+  n2: 1,
+  n1: 2,
+  0: 3,
+  1: 4,
+  2: 5,
+  3: 6,
+  4: 7,
+  5: 8
+);
+
+//  https://github.com/twbs/bootstrap/blob/v4.4.1/scss/mixins/_grid.scss#L5-L11
+%make-container {
+  @include make-container();
+}
+
+@each $key, $value in $container-spacing {
+
+  $rwd-key: 'sm';
+  $suffix: '';
+
+  @if ($key == 0) {
+    $suffix: '';
+  }
+
+  @else {
+    $suffix: -$key;
+  }
+
+  .v1-container#{$suffix} {
+    @extend %make-container;
+
+    min-width: map-get($container-max-widths, $rwd-key);
+
+    &.v1-container-responsive {
+      min-width: auto;
+      box-sizing: border-box;
+    }
+
+    // overwrite default container max-width
+    @each $name, $width in $grid-breakpoints {
+      @if ($width >= map-get($grid-breakpoints, $rwd-key)) {
+        @include media-breakpoint-up($name) {
+          max-width: map-get($container-max-widths, $name);
+        }
+      }
+    }
+  }
+}
